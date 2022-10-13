@@ -62,8 +62,8 @@ export default function Weather(props) {
   } else {
     let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
     let units = "metric";
-    let city = "Kyiv";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
+
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defoltCity}&appid=${apiKey}&units=${units}`;
     axios.get(apiUrl).then(handleResponse);
     return "Lauding...";
   }

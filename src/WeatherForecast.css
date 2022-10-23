@@ -1,5 +1,6 @@
 .WeatherForecast {
   text-align: center;
+  margin-top: 40px;
 }
 .WeatherForecast-temp {
   display: block;
@@ -7,17 +8,17 @@
 
 .WeatherForecast .min {
   opacity: 0.5;
+  font-size: 14px;
 }
 
 .WeatherForecast .max {
   font-weight: bold;
+  font-size: 14px;
 }
 
 .WeatherForecast canvas {
   float: none;
   margin-top: 8px;
-  width: 36px;
-  height: 36px;
 }
 .WeatherForecast-day {
   font-weight: bold;

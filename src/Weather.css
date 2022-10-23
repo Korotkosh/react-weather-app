@@ -25,11 +25,11 @@
 }
 
 .Weather canvas {
-  float: left;
   margin-right: 8px;
   width: 64px;
   height: 64px;
 }
+
 .Weather .temperature {
   font-size: 48px;
   font-weight: 400;

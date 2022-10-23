@@ -1,0 +1,18 @@
+.WeatherForecast {
+  text-align: center;
+}
+.WeatherForecast-temp {
+  display: block;
+}
+
+.WeatherForecast .min {
+  opacity: 0.5;
+}
+
+.WeatherForecast .max {
+  font-weight: bold;
+}
+
+.WeatherForecast canvas {
+  float: none;
+}

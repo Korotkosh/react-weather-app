@@ -15,4 +15,10 @@
 
 .WeatherForecast canvas {
   float: none;
+  margin-top: 8px;
+  width: 36px;
+  height: 36px;
+}
+.WeatherForecast-day {
+  font-weight: bold;
 }
